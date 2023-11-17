@@ -1,0 +1,46 @@
+p {
+    display: block;
+    height: 99px;
+    width: 100px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 4px solid black;
+}
+
+.box {
+    background-color: red;
+}
+
+#neu {
+    background-color: blue;
+}
+
+#neu.box{
+    background-color: black;
+}
+
+div p{
+
+}
+
+[herf] {
+
+}
+
+:hover {
+    background-color: black;
+}
+
+*{
+    Font-Family: "Bagel Fat One", "Times New Roman", sans-serif;
+}
+
+ul {
+    list-style-type: square;
+    color: blueviolet;
+    font-size: 50px;
+}
