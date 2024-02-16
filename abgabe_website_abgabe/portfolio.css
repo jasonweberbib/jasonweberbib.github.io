@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    -o-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+  .logo {
+    position: absolute;
+    color: white;
+    background-color: blue;
+    left: 10%;
+    top: 15px;
+    right: auto;
+  }
+
+  .logoimg {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }

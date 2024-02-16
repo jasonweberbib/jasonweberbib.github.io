@@ -1,0 +1,11 @@
+<header> <!-- Header of Website -->
+        <a href="Index.html" class="logo1"> <img src="pngs/logo(placeholder).png" alt="Logo" id="logo2"> </a> <!-- My Logo on the Header -->
+
+        <nav> <!-- the sexy navigation bar -->
+            <a href="Index.html" class="#">Home</a> <!-- Butten to get to Home page -->
+            <a href="#" class="#">About</a> <!-- Butten to get to what it's all about -->
+            <a href="Index2(ArtWork).html" class="#">Gallery</a> <!-- Butten to get to Gallery page -->
+            <a href="Index2(MyWork).html" class="#">Games</a> <!-- Butten to get to Video Games -->
+            <a href="Index4(idk_really).html" class="#">Contact</a> <!-- Butten to get to my ensurens information page -->
+        </nav> <!-- you're sexy navigation bars ends here!!! >:) (Raidon from Metal Gear) -->
+    </header>
