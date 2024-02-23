@@ -1,3 +1,4 @@
+/* BACKGROUND ----------------------------------------------------------------------*/
 body {
     background-color: rgb(24, 24, 24);
 }
@@ -15,58 +16,101 @@ body {
     filter: blur(5px);
   }
 
-  /*.logo {
-    position: absolute;
-    color: white;
-    background-color: blue;
-    left: 9%;
-    top: 15px;
-    right: auto;
-  } */
+  #myVideo2 {
+    position: fixed;
+    z-index: -2;
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
 
+  /* LOGO --------------------------------------------------------------------------------*/
   .logoimg {
     position: absolute;
     top: 25%;
     left: 25%;
+    width: 50%;
   }
 
-  .textbox{
+/* TEXT BOXES ------------------------------------------------------------------------------------- */
+
+  .textbox, .textbox2, .textbox3, .textbox4, .textbox5{
     position: absolute;
     /*left: 16%;*/
-    background-color: rgba(135, 72, 144, 0.6);
-    border-radius: 5px;
+    background-color: rgba(71, 181, 40, 0.6);
+    border-radius: 10px;
     z-index: 1;
     width: 70%;
     height: 50%;
-    top: 750px;
     margin-left: auto; 
     margin-right: auto;
     padding: 10px;
     display: flex;
   }
 
-/*   FLEX STUFF    */
-  .flextext {
+  .textbox{
+    top: 115%;
+  }
+
+  .textbox2{
+    top: 175%;
+  }
+
+  .textbox3{
+    top: 235%;
+  }
+
+  .textbox4{
+    top: 295%;
+  }
+
+  .textbox5{
+    top: 355%;
+  }
+
+/*   FLEX STUFF  ------------------------------------------------------------------------------------- */
+  .flextext, .flexpage {
     display: flex;
     justify-content: center;
   }
-
-  .flexpage {
-    display: flex;
-    justify-content: center;
-  }
-
-
-
-/*   FLEX STUFF END   */
-
 
   .pagesep {
-    top: 690px;
+    top: 100%;
     left: auto;
     right: auto;
     z-index: 0;
     margin-left: auto; 
     margin-right: auto;
     position: absolute;
+    width: 100%;
+  }
+
+  .buttenbox {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    right: 10%;
+
+  }
+
+  .textpp {
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    position: absolute;
+  }
+
+  .main-header {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+  }
+
+  h3{
+    text-shadow: 2px 2px 5px rgb(0, 255, 47);
+    font-size: 30px;
   }
