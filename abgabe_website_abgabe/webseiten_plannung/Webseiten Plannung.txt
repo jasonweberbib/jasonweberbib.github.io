@@ -1,0 +1,9 @@
+Schwirikste war es zu wissen was ich machen wollte, ein Portfolio? Game Studio? oder BNS Webseite?
+habe mich noch für GS entschiden.
+
+direkt mit dem layout angefangen in draw.io.
+
+schwirigstes war es in einem zeitdruck entschpannt die responsevnis zu machen. 
+habe viel mit prozenten gearbeite um diese zu fixen.
+
+auch sofort so gut wie möglich alles zu ortnen damit man es versteht und schnell find
