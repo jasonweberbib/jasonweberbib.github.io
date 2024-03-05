@@ -73,6 +73,13 @@ body {
     top: 355%;
   }
 
+  .p{
+    display: block;
+    overflow: hidden;
+    max-height: 2.6em;
+    line-height: 1.3em;
+  }
+
 /*   FLEX STUFF  ------------------------------------------------------------------------------------- */
   .flextext, .flexpage {
     display: flex;
@@ -80,7 +87,7 @@ body {
   }
 
   .pagesep {
-    top: 95%;
+    top: 96%;
     left: auto;
     right: auto;
     z-index: 0;
@@ -118,14 +125,14 @@ body {
   }
 
   .textpp {
-    top: 25%;
+    top: 18%;
     left: 5%;
     right: 5%;
     position: absolute;
   }
 
   .main-header {
-    top: 5%;
+    top: 0%;
     left: 5%;
     position: absolute;
   }
@@ -165,6 +172,17 @@ body {
   .tablefoot {
     width: 40%;
 
+  }
+
+  /* navi bar--------------------------------------------*/
+
+  #nav1{
+    background-color: rgb(0, 95, 11);
+    height: 80px;
+    display: flex;
+    position:sticky;
+    top: 0%;
+    left: 0%;
   }
 
   /* LOGO LINKS ----------------------------------------*/
